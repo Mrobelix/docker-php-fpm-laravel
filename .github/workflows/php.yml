@@ -49,7 +49,7 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            mrobelix/php-apache-codeigniter
+            mrobelix/php-fpm-laravel
           flavor: |
             latest=false
           tags: |
