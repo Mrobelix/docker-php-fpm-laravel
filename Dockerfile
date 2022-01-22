@@ -2,8 +2,8 @@ FROM php:apache
 MAINTAINER mrobelix <admin@mrobelix.de>
 
 # Healthcheck
-HEALTHCHECK --interval=10s --timeout=10s --start-period=10s --retries=3 \
-  CMD curl --fail http://localhost || exit 1
+#HEALTHCHECK --interval=10s --timeout=10s --start-period=10s --retries=3 \
+#  CMD curl --fail http://localhost || exit 1
 
 # Update and Upgrade System
 RUN apt-get update -y
